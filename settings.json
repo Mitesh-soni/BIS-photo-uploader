@@ -1,0 +1,27 @@
+{
+  "urls": {
+    "login": "http://localhost:3001/login",
+    "huidList": "http://localhost:3001/huid-list",
+    "upload": "http://localhost:3001/upload",
+    "image": "http://localhost:3001/image"
+  },
+  "elements": {
+    "loginUsername": "input#username",
+    "loginPassword": "input#password",
+    "loginSubmit": "button#submit",
+    "huidTable": "table#huid-table",
+    "uploadRowId": "input#rowId",
+    "uploadType": "select#photoType",
+    "uploadFile": "input#photoFile",
+    "uploadSubmit": "button#uploadSubmit"
+  },
+  "limits": {
+    "maxImageSizeKB": 50,
+    "imageWidth": 800,
+    "imageHeight": 600
+  },
+  "delays": {
+    "loginTimeoutMs": 30000,
+    "pageLoadTimeoutMs": 10000
+  }
+}
